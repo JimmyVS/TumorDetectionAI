@@ -2,6 +2,8 @@
 
 [![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/downloads/)
 
+![image](https://github.com/JimmyVS/TumorDetectionAI/assets/96888699/34c9ebba-276f-44a6-90c4-82eaa4dbe008)
+
 This repository contains a Python script that uses TensorFlow to build, train, and evaluate a neural network for breast cancer diagnosis using a dataset (`cancer.csv`).
 
 ## Description
