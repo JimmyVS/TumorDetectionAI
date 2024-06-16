@@ -1,7 +1,5 @@
 # Breast Cancer Diagnosis with Neural Networks
 
-[![Build Status](https://img.shields.io/github/workflow/status/yourusername/breast-cancer-diagnosis/CI)](https://github.com/yourusername/breast-cancer-diagnosis/actions)
-[![License](https://img.shields.io/github/license/yourusername/breast-cancer-diagnosis)](https://github.com/yourusername/breast-cancer-diagnosis/blob/main/LICENSE)
 [![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/downloads/)
 
 This repository contains a Python script that uses TensorFlow to build, train, and evaluate a neural network for breast cancer diagnosis using a dataset (`cancer.csv`).
@@ -21,11 +19,11 @@ The script processes the dataset by separating features and target variables, th
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/breast-cancer-diagnosis.git
+    git clone https://github.com/JimmyVS/TumorDetectionAI.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd breast-cancer-diagnosis
+    cd TumorDetectionAI
     ```
 3. Install the required packages:
     ```bash
@@ -37,13 +35,15 @@ The script processes the dataset by separating features and target variables, th
 1. Ensure you have the `cancer.csv` dataset in the project directory.
 2. Run the script:
     ```bash
-    python diagnosis.py
+    set PYTHONIOENCODING=UTF-8
+    python TumorDetection.py
     ```
 3. Follow the interactive prompts to train or test the model.
 
 ## Dataset
 
 The `cancer.csv` file should contain the dataset with features and a target column named `diagnosis(1=m, 0=b)` where `1` represents malignant and `0` represents benign diagnoses.
+This repository already contains a dataset. You can change it whenever you want, but make sure to add the required features.
 
 ## Script Overview
 
